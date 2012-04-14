@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.8)  14 APR 2012 20:52
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.8)  14 APR 2012 22:43
 entering extended mode
  %&-line parsing enabled.
 **IRRdraft.tex
@@ -129,18 +129,23 @@ m-puter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 744--745
 []\OT1/ptm/m/n/8 National STROKE As-so-ci-a-tion Web. 14th Apr. 2012
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--747
+[]\OT1/ptm/m/n/8 physiotherapy-treatment.com Web. 5th Apr. 2012
  []
 
 [2
 
 ] (./IRRdraft.aux) ) 
 Here is how much of TeX's memory you used:
- 990 strings out of 493857
- 16847 string characters out of 1153306
- 66951 words of memory out of 3000000
- 4328 multiletter control sequences out of 15000+50000
+ 991 strings out of 493857
+ 16854 string characters out of 1153306
+ 68951 words of memory out of 3000000
+ 4329 multiletter control sequences out of 15000+50000
  37337 words of font info for 67 fonts, out of 3000000 for 9000
  717 hyphenation exceptions out of 8191
  26i,5n,19p,189b,213s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -148,7 +153,7 @@ Here is how much of TeX's memory you used:
 /share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive
 /fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on IRRdraft.pdf (2 pages, 55210 bytes).
+Output written on IRRdraft.pdf (2 pages, 56275 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
