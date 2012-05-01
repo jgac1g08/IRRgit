@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.1)  1 MAY 2012 19:26
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.1)  1 MAY 2012 19:36
 entering extended mode
 **H:/mydocuments/IRRgit/IRRdraft.tex
 (H:/mydocuments/IRRgit/IRRdraft.tex
@@ -131,12 +131,12 @@ m-puter
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 775--776
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 []\OT1/ptm/m/n/8 National STROKE As-so-ci-a-tion Web. 14th Apr. 2012
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 777--778
+Underfull \hbox (badness 10000) in paragraph at lines 786--787
 []\OT1/ptm/m/n/8 physiotherapy-treatment.com Web. 5th Apr. 2012
  []
 
@@ -144,19 +144,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 777--778
 
 ] (H:\mydocuments\IRRgit\IRRdraft.aux) ) 
 Here is how much of TeX's memory you used:
- 996 strings out of 494053
- 17093 string characters out of 3146165
+ 993 strings out of 494053
+ 17063 string characters out of 3146165
  70104 words of memory out of 3000000
  4347 multiletter control sequences out of 15000+200000
  37337 words of font info for 67 fonts, out of 3000000 for 9000
- 718 hyphenation exceptions out of 8191
+ 715 hyphenation exceptions out of 8191
  26i,5n,19p,211b,213s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/font
 s/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
 times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi
 8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on IRRdraft.pdf (3 pages, 59380 bytes).
+Output written on IRRdraft.pdf (3 pages, 59795 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
