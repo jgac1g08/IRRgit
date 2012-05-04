@@ -576,8 +576,10 @@ to their family and any carers they might have. The patient should also continue
 their rehabilitation plan as it is likely that further improvement can still be achieved \cite{Physio}.
 
 \subsection{How Sensing / Robots can Help}
-Robots for upper limb rehabilitation as they exist at the moment are systems for monitoring 
+Sensor systems for upper limb rehabilitation as they exist at the moment are systems for monitoring 
 position of all or part of the arm, often linked to a game or simulation in a virtual environment. [REF]
+Robotic systems are similar but are able to actively move the patient's limb through some or all 
+of the degrees of freedom available to it. [REF]
 
 These robots are helpful to rehabilitation because they can provide detailed feedback which 
 provides useful information to the physiotherapist and potentially a sense of achievement to 
@@ -588,41 +590,88 @@ There is evidence that use of robots in rehabilitation leads to functional impro
 but there is some question as to whether this is much of an improvement over traditional methods 
 (i.e. not involving a robot). [REF]
 
-
 \subsubsection{What they need to be able to do}
 At the most basic level the system needs to be able to accurately measure and report the 
-position of the limb (or section of limb) that it is to be used to aid in the rehabilitation of. 
+position of the limb (or section of limb) that it is to be used to aid in the rehabilitation of.
+
+The system also needs to be safe to use, for sensor systems this means not being sharp 
+or too heavy and for robotic systems this also means that the range of movement it can be 
+driven over needs to be the same as that of the human arm and there should be systems in 
+place to stop the system if it is likely to become dangerous. [REF]
 
 In order for the system to be more effective as a rehabilitation tool it should also be able to 
 support the limb in order to help reduce the likelihood of injury to the patient and it should 
-also comfortable to use for extended periods. [REF]
+also be comfortable to use for extended periods. [REF]
 
 It has also been shown to be helpful for the system to incorporate some form of interactive 
 virtual environment, such as a game, in order to increase their motivation and maintain 
 their cooperation. [REF]
 
-\subsubsection{Challenges}
-Impersonating a physiotherapist.
-
 \section{Sensors}
+\IEEEPARstart{T}{here} are a wide range of sensors available which can prove useful in 
+mapping the position and other qualities of a limb. [REF]  For this study will will consider sensors 
+as the individual components and sensor systems as a collection of such that can be used 
+to gain a more complete picture of the position and activity of a limb.
+
 \subsection{Position/Movement Sensors}
+\subsubsection{The sensors}
 Mapping position in space: accelerometers, strain gauge, ...
+\subsubsection{How they're used}
+One system that uses accelerometers to recognise the action being performed by the patient 
+is described in [REFto: upper limb motion recognition...]. This system uses two 3-axis accelerometers 
+one attached at the wrist and one above the bicep [REF]. Both these sensors transmit their 
+values via wireless modules to a computer where these values are analysed [REF].
+
 \subsection{Angle Sensors} 
+\subsubsection{The sensors}
 Mapping angle (e.g. at joints): potentiometers, magnetometers, ...
+\subsubsection{How they're used}
+What they're used for and example of systems using them this way ...
+
 \subsection{Force Sensors}
+\subsubsection{The sensors}
 Mapping force (gripping/pushing): QTCs, force resistors, ...
+\subsubsection{How they're used}
+What they're used for and example of systems using them this way ...
+
 
 \section{Robotic Systems}
-\subsection{InMotion2 and InMotion3}
-based on MIT-MANUS
-\subsection{ARMin}
+\IEEEPARstart{R}{obotic} systems are systems that are able to not only measure the position 
+of the limb but also to actively move it. This allows such systems to physically guide a patient's 
+arm through the required movement. It also allows the system to provide varying amounts of 
+support to the patient as they perform an action. [REF]
 
+\subsection{End-effector}
+An end-effector system is a system that is anchored at one end and measures the position of 
+the other end relative to this. [REF] The end that is free to move is usually attached to the 
+patient's wrist and thus it's position in 3d space can be tracked and controlled (via actuation) 
+which allows the system to monitor the performance of an action and show variations. [REF]
 
-\section{Systems in development}
+[examples of end-effector systems and what they can do]
 
+End-effector systems with a single attachment point give no information on the position and 
+alignment of the rest of the limb. Some systems exist with two contact points (e.g. the wrist 
+and the upper arm) in order to get more information but this is still limited. [REF]
 
+\subsection{Exoskeleton}
+Exoskeletal systems are systems that are built around shape and degrees of freedom of the limb. [REF] 
+They allow much more information to be gathered about the limb as they allow for more sensors to be 
+placed and more degrees of freedom to be monitored and controlled. [REF] It is, however, harder to 
+provide support to the limb through a pure exoskeletal system, for this reason the systems are often 
+hybrids; with one end of the exoskeleton attached to and end-effector system. [REF]
 
-\section{Other Possible Approaches}
+One such hybrid system is the ARMin rehabilitation robot which has an end-effector system for the 
+shoulder attached to an exoskeleton for the elbow and the forearm. [REF] The system has 4 active 
+degrees of freedom and 2 passive with which to measure and guide the position and movement of 
+the patient's arm. [REF] The ARMin system is also highly adjustable at many points in its structure 
+so that it can be changed to fit patients of different sizes. [REF]
+
+The ARMin system is also and example of a system that uses interactive games in order to increase 
+patient's motivation and compliance. [REF] The ARMin system was piloted on healthy subjects and 
+the results of a questionnaire following this provide evidence for incorporating games increasing 
+motivation. [REF]
+
+\section{Vision Based Systems}
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
