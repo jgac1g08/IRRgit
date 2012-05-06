@@ -533,22 +533,23 @@ impulsiveness \cite{NSA}.
 
 Left-hemispherical strokes can cause the victim to develop problems with 
 language (aphasia) and may effect their judgment in the opposite way to 
-right-hemispherical victims, becoming ponderous and unsure \cite{NSA}.
+right-hemispherical victims, with them becoming ponderous and unsure \cite{NSA}.
 
 \subsubsection{Cerebellar Stroke}
 A cerebellar stroke affects balance and co-ordination and can cause dizziness 
-and nausea \cite{NSA}.
+and nausea \cite{NSA, TheBrain}.
 
 \subsubsection{Brain Stem Stroke}
 Brain stem strokes are the most dangerous as this is the part of the brain that 
-controls essential functions such as your heart, breathing and swallowing \cite{NSA}.
+controls essential functions such as your heart, breathing and swallowing \cite{NSA,TheBrain}.
 
 A stroke in the brain stem can also cause full or partial paralysis in either or 
 both sides of the body \cite{NSA}.
 
 \subsection{Traditional Rehabilitation of Stroke Patients}
 The most basic aim of stroke victim rehabilitation is to allow the victim to regain 
-their independence. The management of stroke patients is broken down into three areas: acute care, rehabilitation care and community care \cite{Physio}.
+their independence. The management of stroke patients is broken down into three 
+areas: acute care, rehabilitation care and community care \cite{Physio}.
 
 \subsubsection{Acute Care}
 This is the stage of care that covers preventing further strokes and making sure the 
@@ -561,11 +562,11 @@ this stage is emotional support to the patient and their family \cite{Physio}.
 \subsubsection{Rehabilitation Care}
 This stage of care is all about improvement, it's about setting goals, developing a plan 
 and then monitoring the patient's progress against these. It is about getting the patient 
-back on their way towards normality or at least towards 'functional independence'. It is 
+back on their way towards normality or at least towards `functional independence'. It is 
 also about getting the patient to a stage were they're ready to go home \cite{Physio}.
 
 There are several tests through which the patient's motor and sense function 
-can be evaluated, a popular one is the fugl-meyer test which score the patient 
+can be evaluated, a popular one is the fugl-meyer test which scores the patient 
 out of 100 for the whole body (66 for upper limbs, 34 for legs). This score can 
 then be used to measure improvement over the course of treatment. [REF]
 
@@ -583,7 +584,7 @@ of the degrees of freedom available to it. [REF]
 
 These robots are helpful to rehabilitation because they can provide detailed feedback which 
 provides useful information to the physiotherapist and potentially a sense of achievement to 
-the patient, allowing them to monitor there own progress. Linking the system to a game or simulated 
+the patient, allowing them to monitor their own progress. Linking the system to a game or simulated 
 environment also helps to improve the patient's motivation. [REF]
 
 There is evidence that use of robots in rehabilitation leads to functional improvements in the patient 
@@ -596,18 +597,18 @@ position of the limb (or section of limb) that it is to be used to aid in the re
 
 The system also needs to be safe to use, for sensor systems this means not being sharp 
 or too heavy and for robotic systems this also means that the range of movement it can be 
-driven over needs to be the same as that of the human arm and there should be systems in 
+driven over needs to be the same as that of the human arm and there should be controls in 
 place to stop the system if it is likely to become dangerous. [REF]
 
 In order for the system to be more effective as a rehabilitation tool it should also be able to 
 support the limb in order to help reduce the likelihood of injury to the patient and it should 
-also be comfortable to use for extended periods. [REF]
+be comfortable to use for extended periods. [REF]
 
 It has also been shown to be helpful for the system to incorporate some form of interactive 
-virtual environment, such as a game, in order to increase their motivation and maintain 
+virtual environment, such as a game, in order to increase patient motivation and maintain 
 their cooperation. [REF]
 
-\section{Sensors}
+\section{Sensor Systems}
 \IEEEPARstart{T}{here} are a wide range of sensors available which can prove useful in 
 mapping the position and other qualities of a limb. [REF]  For this study will will consider sensors 
 as the individual components and sensor systems as a collection of such that can be used 
@@ -615,16 +616,45 @@ to gain a more complete picture of the position and activity of a limb.
 
 \subsection{Position/Movement Sensors}
 \subsubsection{The sensors}
-Mapping position in space: accelerometers, strain gauge, ...
+The most common sensor type used for this purpose is the accelerometer. Accelerometers measure 
+the effect of acceleration on a mass in free-fall. A standard construction method for accelerometers 
+for use at the correct range and frequency of human motion is to have a test mass on a damped spring 
+and have the deflection of this mass move one plate of a capacitor thus changing its capacitance [REF: acc].
+
+These devices are usually MEMs devices constructed in silicone but it is also possible to manufacture 
+larger devices (mm scale) using PCB techniques at potentially lower cost [REF: acc].
+
+It is also interesting to note that an accelerometer at rest will show an acceleration of 1 g upwards as 
+the acceleration it measures is relative to the free-falling mass and from the reference point of said 
+mass the casing of the accelerometer appears to be accelerating upwards at a rate of 1g.
+
 \subsubsection{How they're used}
+Most usually accelerometers are used to measure the acceleration of whatever they're attached to. 
+If the initial position and velocity are known then it should be possible to calculate the position and velocity 
+from the acceleration via integration although the errors accrued in this process may make using accelerometers 
+this way to estimate body position may not be feasible [REF: feasible].
+
 One system that uses accelerometers to recognise the action being performed by the patient 
 is described in [REFto: upper limb motion recognition...]. This system uses two 3-axis accelerometers 
 one attached at the wrist and one above the bicep [REF]. Both these sensors transmit their 
-values via wireless modules to a computer where these values are analysed [REF].
+values via wireless modules to a computer where these values are analysed [REF]. This system 
+doesn't map limb position into 3D space but instead uses the output of the sensors whilst the 
+patient is performing an action from their rehabilitation routine and uses this to classify the 
+action [REF].
 
 \subsection{Angle Sensors} 
 \subsubsection{The sensors}
-Mapping angle (e.g. at joints): potentiometers, magnetometers, ...
+The most usual method for measuring angle is with a potentiometer as their resistance changes as 
+they are rotated which is simplicity itself to measure. In order to accurately measure the angle of 
+a joint by this method the potentiometer has to be properly aligned with the joint. Misalignment is 
+one of the many causes of error in systems that use such angle sensors that has to be carefully 
+compensated for [REF].
+
+It is possible to use accelerometers as angle sensors relative to gravity, this could also be described 
+as a tilt sensor. Angle of a joint can be measured by putting a sensor either side both aligned and 
+calculating the difference [REF: anglesacc].
+
+
 \subsubsection{How they're used}
 What they're used for and example of systems using them this way ...
 

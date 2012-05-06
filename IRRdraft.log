@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.4)  4 MAY 2012 22:35
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.6)  6 MAY 2012 22:41
 entering extended mode
 **H:/mydocuments/IRRgit/IRRdraft.tex
 (H:/mydocuments/IRRgit/IRRdraft.tex
@@ -134,42 +134,44 @@ m-puter
 
 [2
 
-]
+] [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 831.
+(Font)              <8> on input line 864.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 831.
+(Font)              <6> on input line 864.
 
-Underfull \hbox (badness 4072) in paragraph at lines 830--832
+Underfull \hbox (badness 4072) in paragraph at lines 863--865
 \OT1/ptm/m/n/8 [On-line]. Avail-able: $http : / / www . stroke . org / site / P
 ageServer ? pagename =$
  []
 
 
-Underfull \hbox (badness 4805) in paragraph at lines 833--835
+Underfull \hbox (badness 4805) in paragraph at lines 866--868
 []\OT1/ptm/m/n/8 J. Caswell. (2012, April 11). \OT1/ptm/m/it/8 A Tour of the Br
 ain \OT1/ptm/m/n/8 [On-line].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--835
+Underfull \hbox (badness 10000) in paragraph at lines 866--868
 $\OT1/ptm/m/n/8 EectsofStroke / ATouroftheBrain / A-[]Tour-[]of-[]the-[]Brain[
 ]UCM[]310943[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 836--838
+Underfull \hbox (badness 10000) in paragraph at lines 869--871
 []\OT1/ptm/m/n/8 physiotherapy-treatment.com (2012, April 5). \OT1/ptm/m/it/8 s
 troke phys-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 836--838
+Underfull \hbox (badness 10000) in paragraph at lines 869--871
 \OT1/ptm/m/it/8 ther-apy \OT1/ptm/m/n/8 [On-line]. Avail-able: $http : / / www 
 . physiotherapy-[]treatment .$
  []
 
-[3] (H:\mydocuments\IRRgit\IRRdraft.aux) ) 
+[4
+
+] (H:\mydocuments\IRRgit\IRRdraft.aux) ) 
 Here is how much of TeX's memory you used:
  1083 strings out of 494053
  18139 string characters out of 3146165
@@ -178,14 +180,14 @@ Here is how much of TeX's memory you used:
  40296 words of font info for 74 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  26i,5n,19p,212b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
-w/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utm
-bi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on IRRdraft.pdf (3 pages, 63831 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/font
+s/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
+times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi
+8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on IRRdraft.pdf (4 pages, 66618 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
+ 32 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
