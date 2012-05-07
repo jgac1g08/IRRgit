@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.6)  6 MAY 2012 22:41
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.7)  7 MAY 2012 22:34
 entering extended mode
 **H:/mydocuments/IRRgit/IRRdraft.tex
 (H:/mydocuments/IRRgit/IRRdraft.tex
@@ -135,59 +135,170 @@ m-puter
 [2
 
 ] [3]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 864.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 864.
+Underfull \hbox (badness 10000) in paragraph at lines 724--729
+[]\OT1/ptm/m/n/10 Another end-effector sys-tem is de-scribed in
+ []
 
-Underfull \hbox (badness 4072) in paragraph at lines 863--865
+
+Underfull \hbox (badness 1776) in paragraph at lines 724--729
+\OT1/ptm/m/n/10 [REF:VRHandFinger], this sys-tem is de-signed for hand
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 724--729
+\OT1/ptm/m/n/10 to com-plete tasks [REF:VRHandFinger]. This sys-tem is
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 935.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 935.
+
+Underfull \hbox (badness 4072) in paragraph at lines 935--936
 \OT1/ptm/m/n/8 [On-line]. Avail-able: $http : / / www . stroke . org / site / P
 ageServer ? pagename =$
  []
 
 
-Underfull \hbox (badness 4805) in paragraph at lines 866--868
+Underfull \hbox (badness 4805) in paragraph at lines 937--938
 []\OT1/ptm/m/n/8 J. Caswell. (2012, April 11). \OT1/ptm/m/it/8 A Tour of the Br
 ain \OT1/ptm/m/n/8 [On-line].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 866--868
+Underfull \hbox (badness 10000) in paragraph at lines 937--938
 $\OT1/ptm/m/n/8 EectsofStroke / ATouroftheBrain / A-[]Tour-[]of-[]the-[]Brain[
 ]UCM[]310943[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 869--871
+Underfull \hbox (badness 10000) in paragraph at lines 939--940
 []\OT1/ptm/m/n/8 physiotherapy-treatment.com (2012, April 5). \OT1/ptm/m/it/8 s
 troke phys-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 869--871
+Underfull \hbox (badness 10000) in paragraph at lines 939--940
 \OT1/ptm/m/it/8 ther-apy \OT1/ptm/m/n/8 [On-line]. Avail-able: $http : / / www 
 . physiotherapy-[]treatment .$
  []
 
-[4
+[4]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+ [5
 
 ] (H:\mydocuments\IRRgit\IRRdraft.aux) ) 
 Here is how much of TeX's memory you used:
- 1083 strings out of 494053
- 18139 string characters out of 3146165
- 71897 words of memory out of 3000000
- 4426 multiletter control sequences out of 15000+200000
- 40296 words of font info for 74 fonts, out of 3000000 for 9000
+ 1101 strings out of 494053
+ 18322 string characters out of 3146165
+ 72897 words of memory out of 3000000
+ 4444 multiletter control sequences out of 15000+200000
+ 40815 words of font info for 75 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 26i,5n,19p,212b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 26i,5n,19p,327b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/font
 s/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
 times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi
 8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on IRRdraft.pdf (4 pages, 66618 bytes).
+Output written on IRRdraft.pdf (5 pages, 74981 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
+ 35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -478,7 +478,7 @@ The abstract goes here.
 
 % Note that keywords are not normally used for peerreview papers.
 \begin{IEEEkeywords}
-Stroke, robot, sensors. % to be added to...
+Stroke rehabilitation, robot, sensors, body position. % to be added to...
 \end{IEEEkeywords}
 
 
@@ -547,6 +547,9 @@ A stroke in the brain stem can also cause full or partial paralysis in either or
 both sides of the body \cite{NSA}.
 
 \subsection{Traditional Rehabilitation of Stroke Patients}
+Rehabilitation is possible after a stroke due to the `plasticity' of the brain, which is 
+its ability to adapt to damage and reconfigure to allow continued function \cite{TheBrain}.
+
 The most basic aim of stroke victim rehabilitation is to allow the victim to regain 
 their independence. The management of stroke patients is broken down into three 
 areas: acute care, rehabilitation care and community care \cite{Physio}.
@@ -625,7 +628,7 @@ These devices are usually MEMs devices constructed in silicone but it is also po
 larger devices (mm scale) using PCB techniques at potentially lower cost [REF: acc].
 
 It is also interesting to note that an accelerometer at rest will show an acceleration of 1 g upwards as 
-the acceleration it measures is relative to the free-falling mass and from the reference point of said 
+the acceleration it measures is relative to the free-falling mass, and from the reference point of said 
 mass the casing of the accelerometer appears to be accelerating upwards at a rate of 1g.
 
 \subsubsection{How they're used}
@@ -647,22 +650,56 @@ action [REF].
 The most usual method for measuring angle is with a potentiometer as their resistance changes as 
 they are rotated which is simplicity itself to measure. In order to accurately measure the angle of 
 a joint by this method the potentiometer has to be properly aligned with the joint. Misalignment is 
-one of the many causes of error in systems that use such angle sensors that has to be carefully 
+one of the main causes of error in systems that use such angle sensors and has to be carefully 
 compensated for [REF].
 
 It is possible to use accelerometers as angle sensors relative to gravity, this could also be described 
-as a tilt sensor. Angle of a joint can be measured by putting a sensor either side both aligned and 
+as a tilt sensor. Angle of a joint can be measured by putting a sensor either side, both aligned, and 
 calculating the difference [REF: anglesacc].
 
+A more novel sensor for measuring angle via measuring flexible displacement is described in [REF: flexible], 
+it is a type of potentiometer based on nylon string coated in carbon to allow it to be flexible. It is also shown as 
+being able to measure the angle of the elbow joint of a human arm by measuring the flexing of the bicep [REF: flexible].
 
 \subsubsection{How they're used}
-What they're used for and example of systems using them this way ...
+Angle sensors are most commonly used to measure the angle at which a joint in the arm is bent or 
+rotated, if you have such a sensor or each degree of freedom that the arm can move through then a 
+picture of the position of the arm can be constructed. This is usually the position mapping scheme 
+used in exoskeletal systems [REF].
 
 \subsection{Force Sensors}
 \subsubsection{The sensors}
-Mapping force (gripping/pushing): QTCs, force resistors, ...
+Some examples of force sensors are the force sensitive resistor (FSR) developed by interlink 
+electronics [REF], quantum tunneling composites (QTCs) developed by Peratech [REF] and 
+piezoelectric force/vibration sensors.
+
+FSRs have contacts on either side of a slightly conductive layer, as force is applied more of 
+the contacts are shorted together and thus the resistance across them is reduced. FSRs 
+are not very accurate for measuring force, they are more suited to detecting its presence [REF].
+
+QTCs work by quantum tunneling, they are made of metal particles suspended in an insulator 
+(rubber). When no force is applied the material is an insulator but when force is applied the 
+material deforms and the metal particles are brought closer together allowing the material to 
+conduct via quantum tunneling of electrons [REF]. The resistance of a QTC varies 
+exponentially with applied force and can be used for force measurement [REF].
+
+Piezoelectric sensors work by the piezoelectric effect; which is that a deformation of the material 
+causes a voltage to appear across it. These types of sensors are only suitable for measuring 
+dynamic force as they only give an output when the applied force is changing, this combined 
+with the fact that they have a very fast response, is why they are often used for monitoring 
+vibration.
+
 \subsubsection{How they're used}
-What they're used for and example of systems using them this way ...
+Force sensors in upper limb rehabilitation robots and sensor systems are almost exclusively 
+used to measure the strength of the patient's grip. Force sensors are also used in lower 
+limb rehabilitation to the forces on the feet and help measure gait.
+
+One system that uses force sensors to measure grip strength is the PLEMO system [REF]. 
+This system adds grip strength and wrist angle sensors to an existing end-effector type 
+robotic rehabilitation device [REF]. The system was tested with a group of healthy subjects 
+and a group of stroke victims so that any differences in the way they performed a task 
+(as described by the information from the sensors) could be identified, from the results 
+the stroke patients were clearly identifiable [REF].
 
 
 \section{Robotic Systems}
@@ -674,14 +711,25 @@ support to the patient as they perform an action. [REF]
 \subsection{End-effector}
 An end-effector system is a system that is anchored at one end and measures the position of 
 the other end relative to this. [REF] The end that is free to move is usually attached to the 
-patient's wrist and thus it's position in 3d space can be tracked and controlled (via actuation) 
+patient's wrist and thus i's position in 3d space can be tracked and controlled (via actuation) 
 which allows the system to monitor the performance of an action and show variations. [REF]
 
-[examples of end-effector systems and what they can do]
+The InMotion2 robotic rehabilitation system is an example of and end-effector system [REF]. 
+This system attaches to the patient at the forearm and wrist and allows for the motion of these 
+points to be monitored in a 2D plane while the patient completes tasks shown to him on 
+a screen [REF]. Data collected from this system at the beginning and end of a course of 
+rehabilitation using the system are able to show that the patient has improved at the tasks 
+set by the system [REF].
+
+Another end-effector system is described in [REF:VRHandFinger], this system is designed for 
+hand and finger rehabilitation. This system is interacted with via a finger and allows you to navigate 
+a point about a 3d environment on a computer, in which the patient is to complete tasks [REF:VRHandFinger].
+This system is also able to show patient improvement at the tasks after rehabilitation using the 
+system [REF:VRHandFinger].
 
 End-effector systems with a single attachment point give no information on the position and 
 alignment of the rest of the limb. Some systems exist with two contact points (e.g. the wrist 
-and the upper arm) in order to get more information but this is still limited. [REF]
+and the upper arm) in order to get more information but this is still limited [REF].
 
 \subsection{Exoskeleton}
 Exoskeletal systems are systems that are built around shape and degrees of freedom of the limb. [REF] 
@@ -699,9 +747,33 @@ so that it can be changed to fit patients of different sizes. [REF]
 The ARMin system is also and example of a system that uses interactive games in order to increase 
 patient's motivation and compliance. [REF] The ARMin system was piloted on healthy subjects and 
 the results of a questionnaire following this provide evidence for incorporating games increasing 
-motivation. [REF]
+motivation [REF].
+
+Another exoskeletal system for the arm is the CADEN-7 [REF]. The CADEN-7 system was built as a 
+general exoskeleton not specifically aimed at rehabilitation but suitable for use as such or as either an 
+assistive device, a haptic interface or a master device for teleoperation of another robot system [REF]. 
+CADEN-7 is a 7 degree of freedom system; 3 at the shoulder, 1 at the elbow and 3 at the wrist to 
+match the human arm [REF].
+
+The name CADEN-7 comes from ``cable-actuated dexterous exoskeleton for neurorehabilitation'', 
+cable actuation means the torque is transfered from motors to the part of the system to be driven 
+via cables [REF]. The advantage of this method is that they can transmit the torque over long 
+distances relatively simply and without much backlash [REF].
+
+Exoskeletons are possible for just the hand as well as for the entire arm. An example of such a 
+system is the HEXOSYS-II [REF]. This system has a full set of exoskeletal fingers and thumb and 
+each of these can be driven to grasp and unfurl, the system also allows for the fingers to be 
+spread out but this cannot be driven [REF].
+
+The HEXOSYS-II has magnetic sensors by the motors in order to sense the finger position (via 
+the motor position) and it also has strain gauges on the linkages between the motor and the fingers 
+in order to sense the forces on the fingers [REF].
 
 \section{Vision Based Systems}
+\IEEEPARstart{C}{ameras} and computing power is getting cheaper all the time and are therefore 
+more available. This increase in available computing power allows complex image processing to be performed 
+which can be used to track a body in 2d and 3D space.
+
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
@@ -810,21 +882,21 @@ The conclusion goes here.
 %
 
 
-\appendices
-\section{Hopefully won't have any of these}
-Appendix one text goes here.
+%\appendices
+%\section{Hopefully won't have any of these}
+%Appendix one text goes here.
 
 % you can choose not to have a title for an appendix
 % if you want by leaving the argument blank
-\section{}
-Appendix two text goes here.
+%\section{}
+%Appendix two text goes here.
 
 
 % use section* for acknowledgement
-\section*{Acknowledgment}
+%\section*{Acknowledgment}
 
 
-The authors would like to thank...
+%The authors would like to thank...
 
 
 % Can use something like this to put references on a page
@@ -852,22 +924,55 @@ The authors would like to thank...
 % http://www.michaelshell.org/tex/ieeetran/bibtex/
 %\bibliographystyle{IEEEtran}
 % argument is your BibTeX string definitions and bibliography database(s)
-%\bibliography{IEEEabrv,../bib/paper}
+%\bibliography{library}
 %
 % <OR> manually copy in the resultant .bbl file
 % set second argument of \begin to the number of references
 % (used to reserve space for the reference number labels box)
 
-\begin{thebibliography}{1} % will need properly formatting later
+\begin{thebibliography}{1} 
   
-\bibitem{NSA} National STROKE Association. (2012, April 14). \emph{Effects of Stroke}
-[Online]. Available: \url{http://www.stroke.org/site/PageServer?pagename=EFFECT}
+\bibitem{NSA} National STROKE Association. (2012, April 14). \emph{Effects of Stroke} [Online]. Available: \url{http://www.stroke.org/site/PageServer?pagename=EFFECT}
 
-\bibitem{TheBrain} J. Caswell. (2012, April 11). \emph{A Tour of the Brain}
-[Online]. Available: \url{http://www.strokeassociation.org/STROKEORG/AboutStroke/EffectsofStroke/ATouroftheBrain/A-Tour-of-the-Brain_UCM_310943_Article.jsp}
+\bibitem{TheBrain} J. Caswell. (2012, April 11). \emph{A Tour of the Brain} [Online]. Available: \url{http://www.strokeassociation.org/STROKEORG/AboutStroke/EffectsofStroke/ATouroftheBrain/A-Tour-of-the-Brain_UCM_310943_Article.jsp}
 
-\bibitem{Physio} physiotherapy-treatment.com (2012, April 5). \emph{stroke physical therapy}
-[Online]. Available: \url{http://www.physiotherapy-treatment.com/stroke-physical-therapy.html}
+\bibitem{Physio} physiotherapy-treatment.com (2012, April 5). \emph{stroke physical therapy} [Online]. Available: \url{http://www.physiotherapy-treatment.com/stroke-physical-therapy.html}
+
+\bibitem{fuglemeyer} F.-meyer Ar, L. Jaasko, I. Leyman, S. Olsson, and S. S. The, “FUGL-MEYER ASSESSMENT UPPER EXTREMITY ( FMA-UE ) Assessment of sensorimotor function ID : Date : Examiner :,” no. max 2, pp. 1-3, 2010.
+
+\bibitem{VRHandFingerr} O. a. Daud, R. Oboe, M. Agostini, and A. Turolla, “Performance evaluation of a VR-based hand and finger rehabilitation program,” 2011 IEEE International Symposium on Industrial Electronics, pp. 934-939, Jun. 2011.
+
+\bibitem{flexiSensor} S. Dohta, T. Akagi, and H. Kuno, “Development of string-type flexible displacement sensor to measure the movement of robot and human body,” International journal of, pp. 2-4, 2010.
+
+\bibitem{ACangle} F. Ghassemi, S. Tafazoli, and P. Lawrence, “Design and Calibration of an Integration-Free Accelerometer-Based Joint-Angle Sensor,” Instrumentation and, vol. 57, no. 1, pp. 150-159, 2008.
+
+\bibitem{ACfeasable} D. Giansanti and V. Macellari, “Is it feasible to reconstruct body segment 3-D position and orientation using accelerometric data?,” IEEE Transactions on, vol. 50, no. 4, pp. 476-483, 2003.
+
+\bibitem{ADLVE} M. Guidali, A. Duschau-Wicke, S. Broggi, V. Klamroth-Marganska, T. Nef, and R. Riener, “A robotic system to train activities of daily living in a virtual environment.,” Medical \& biological engineering \& computing, vol. 49, no. 10, pp. 1213-23, Oct. 2011.
+
+\bibitem{ACSVM} L. Guo and L. Yu, “Upper limb motion recognition for unsupervised stroke rehabilitation based on Support Vector Machine,” Bioelectronics and Bioinformatics (ISBB), 2011.
+
+\bibitem{FSR} A. Hollinger, “Evaluation of commercial force-sensing resistors,” Unpublished report, pp. 1-4, 2006.
+
+\bibitem{QTC} Peratech. (2012, May 7). \emph{QTC Material} [Online]. Available: \url{http://www.peratech.com/qtcmaterial.php}
+
+\bibitem{Interlink} Interlink Electronics Inc. (2011). \emph{Force Sensorsl} [Online]. Available: \url{http://www.interlinkelectronics.com/catalog/Force-Sensors}
+
+\bibitem{HandExo} J. Iqbal, N. G. Tsagarakis, and D. G. Caldwell, “A multi-DOF robotic exoskeleton interface for hand motion assistance,” 2011 Annual International Conference of the IEEE Engineering in Medicine and Biology Society, pp. 1575-1578, Aug. 2011.
+
+\bibitem{StereoCamera} S. Jun, J. Park, C. Park, and I. Jung, “Morphological approach of stereo camera based human motion capture system,” International Conference on Control, Automation and Systems, 2007., pp. 2238-2241, 2007.
+
+\bibitem{AdvancesPush} R. C. V. Loureiro, W. S. Harwin, K. Nagai, and M. Johnson, “Advances in upper limb stroke rehabilitation: a technology push.,” Medical \& biological engineering \& computing, vol. 49, no. 10, pp. 1103-18, Oct. 2011.
+
+\bibitem{lowCostACs} M. Mui, “Development and characterizations of low cost accelerometers,” Electronic Materials and Packaging,, 2006.
+
+\bibitem{ARMin} T. Nef, M. Mihelj, and G. Colombo, “ARMin-robot for rehabilitation of the upper extremities,” Robotics and Automation,, no. May, pp. 3152-3157, 2006.
+
+\bibitem{PLEMO} T. Ozawa et al., “Initial clinical tests for assessment models of synergy movements of stroke patients using PLEMO system with sensor grip device,” 2009 IEEE International Conference on Rehabilitation Robotics, pp. 873-878, Jun. 2009.
+
+\bibitem{CADEN} J. Perry and J. Rosen, “Upper-limb powered exoskeleton design,” Mechatronics, IEEE/ASME, vol. 12, no. 4, pp. 408-417, 2007.
+
+\bibitem{QuantativeRobot} L. Zollo, L. Rossini, M. Bravi, G. Magrone, S. Sterzi, and E. Guglielmelli, “Quantitative evaluation of upper-limb motor control in robot-aided rehabilitation.,” Medical \& biological engineering \& computing, vol. 49, no. 10, pp. 1131-44, Oct. 2011.
 
 \end{thebibliography}
 
@@ -887,9 +992,6 @@ The authors would like to thank...
 %\end{IEEEbiography}
 
 % if you will not have a photo at all:
-\begin{IEEEbiographynophoto}{John Charlesworth}
-Biography text here.
-\end{IEEEbiographynophoto}
 
 % insert where needed to balance the two columns on the last page with
 % biographies
