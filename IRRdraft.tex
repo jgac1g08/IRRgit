@@ -1,4 +1,3 @@
-
 %% bare_jrnl.tex
 %% V1.3
 %% 2007/01/11
@@ -126,7 +125,7 @@
 % *** GRAPHICS RELATED PACKAGES ***
 %
 \ifCLASSINFOpdf
-  % \usepackage[pdftex]{graphicx}
+   \usepackage[pdftex]{graphicx}
   % declare the path(s) where your graphic files are
   % \graphicspath{{../pdf/}{../jpeg/}}
   % and their extensions so you won't have to specify these with
@@ -386,7 +385,7 @@
 
 
 % correct bad hyphenation here
-%\hyphenation{op-tical net-works semi-conduc-tor}
+\hyphenation{op-tical net-works semi-conduc-tor}
 
 
 \begin{document}
@@ -405,10 +404,9 @@
 % was not built to handle multiple paragraphs
 %
 
-\author{John~Charlesworth}% <-this % stops a space
-\thanks{J. Charlesworth is with the School of Electronics and Computer Science, 
+\author{John~Charlesworth \\ School of Electronics and Computer Science, \\
 University of Southampton, Southampton, Hants,
-UK, e-mail: jgac1g08@ecs.soton.ac.uk}% <-this % stops a space
+UK, \\ e-mail: jgac1g08@ecs.soton.ac.uk}% <-this % stops a space
 
 
 % note the % following the last \IEEEmembership and also \thanks - 
@@ -433,8 +431,8 @@ UK, e-mail: jgac1g08@ecs.soton.ac.uk}% <-this % stops a space
 
 % The paper headers
 
-%\markboth{Journal of \LaTeX\ Class Files,~Vol.~6, No.~1, January~2007}%
-%{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Journals}
+%\markboth{IRR, May 2012}%
+%{J Charlesworth: Review of Sensing and Robot Solutions to Stroke Rehabilitation, Focusing on Upper Limbs}
 
 % The only time the second header will appear is for the odd numbered pages
 % after the title page when using the twoside option.
@@ -467,7 +465,23 @@ UK, e-mail: jgac1g08@ecs.soton.ac.uk}% <-this % stops a space
 
 \begin{abstract}
 %\boldmath
-The abstract goes here.
+A review of papers on systems for rehabilitation of stroke victims was carried out, 
+focusing on systems for the rehabilitation of the upper limbs. Sensors that could 
+be useful for this purpose, robotic systems already in use for this purpose and 
+visual sensors that can be used for motion capture are all reviewed.
+Rehabilitation systems can be divided into two groups; large scale robotic systems 
+and small scale sensing systems. The additional bulk of the robotic systems comes from 
+the need to be actuated and to be constructed of materials sturdy enough to 
+withstand the forces exerted by the actuators.
+Exoskeletal robotic systems were identified as the better choice for the large scale 
+systems as they provide the most information on the patient.
+Visual sensors were identified as having a lot of potential for cheap, small scale 
+systems that could be used by the patient at home.
+Having the rehabilitation system linked to a game that encourages the patient to 
+perform actions from their rehabilitation is found to be valuable in terms of 
+maintaining the patient's enthusiasm.
+An absence of any exoskeletal systems for both the arm and hand combined was 
+discovered highlighting this as an area that might warrant investigation.
 \end{abstract}
 % IEEEtran.cls defaults to using nonbold math in the Abstract.
 % This preserves the distinction between vectors and scalars. However,
@@ -478,7 +492,7 @@ The abstract goes here.
 
 % Note that keywords are not normally used for peerreview papers.
 \begin{IEEEkeywords}
-Stroke rehabilitation, robot, sensors, body position. % to be added to...
+Stroke rehabilitation, robot, sensors, body position, upper limbs, exoskeleton. % to be added to...
 \end{IEEEkeywords}
 
 
@@ -494,7 +508,7 @@ Stroke rehabilitation, robot, sensors, body position. % to be added to...
 %
 % For peerreview papers, this IEEEtran command inserts a page break and
 % creates the second title. It will be ignored for other modes.
-\IEEEpeerreviewmaketitle
+%\IEEEpeerreviewmaketitle
 
 
 
@@ -516,7 +530,7 @@ Stroke rehabilitation, robot, sensors, body position. % to be added to...
 % and "HIS" in caps to complete the first word.
 \IEEEPARstart{T}{his} review is intended as a resource for people wishing 
 to do further research into robot or sensor systems for rehabilitation of 
-stroke victims with upper limb hemiplegia. Systems based on functional electrical 
+stroke victims with partial paralysis of the upper limb. Systems based on functional electrical 
 stimulation (FES) will not be covered in this review.
  
 \hfill April 14, 2012
@@ -528,12 +542,12 @@ or full paralysis down the opposite side of the body (hemiplegia). It can
 also cause problems with short term memory \cite{NSA}.
 
 Right-hemispherical strokes can also cause the victim to suffer a loss 
-of spatial awareness and an impairment of judgment that manifests as 
+of spatial awareness and an impairment of judgement that manifests as 
 impulsiveness \cite{NSA}.
 
 Left-hemispherical strokes can cause the victim to develop problems with 
-language (aphasia) and may effect their judgment in the opposite way to 
-right-hemispherical victims, with them becoming ponderous and unsure \cite{NSA}.
+language (aphasia) and may affect their judgement in the opposite way to 
+right-hemispherical victims, resulting in them becoming ponderous and unsure \cite{NSA}.
 
 \subsubsection{Cerebellar Stroke}
 A cerebellar stroke affects balance and co-ordination and can cause dizziness 
@@ -555,133 +569,133 @@ their independence. The management of stroke patients is broken down into three
 areas: acute care, rehabilitation care and community care \cite{Physio}.
 
 \subsubsection{Acute Care}
-This is the stage of care that covers preventing further strokes and making sure the 
-patient is breathing and their heart is beating. The patient's bladder and bowel 
+This is the stage of care that covers preventing further strokes and safeguarding 
+the patient's vital signs. The patient's bladder and bowel 
 function should be checked at this stage along with their ability to perform the 
 actions associated with such. The patient should also be brought to a point 
 whereby they can move, albeit with impairments. The last element of care at 
 this stage is emotional support to the patient and their family \cite{Physio}.
 
 \subsubsection{Rehabilitation Care}
-This stage of care is all about improvement, it's about setting goals, developing a plan 
+This stage of care is primarily focused on improvement, it's about setting goals, developing a plan 
 and then monitoring the patient's progress against these. It is about getting the patient 
 back on their way towards normality or at least towards `functional independence'. It is 
-also about getting the patient to a stage were they're ready to go home \cite{Physio}.
+also about getting the patient to a stage were they are ready to go home \cite{Physio}.
 
 There are several tests through which the patient's motor and sense function 
 can be evaluated, a popular one is the fugl-meyer test which scores the patient 
 out of 100 for the whole body (66 for upper limbs, 34 for legs). This score can 
-then be used to measure improvement over the course of treatment. [REF]
+then be used to measure improvement over the course of treatment \cite{fuglmeyer}.
 
 \subsubsection{Community Care}
-This stage of care is all about reintegrating the patient, into the community and potentially 
+This stage of care is about reintegrating the patient, both into the community and potentially 
 into work as well if they had a job. It is also about providing support to the patient and 
 to their family and any carers they might have. The patient should also continue with 
 their rehabilitation plan as it is likely that further improvement can still be achieved \cite{Physio}.
 
 \subsection{How Sensing / Robots can Help}
-Sensor systems for upper limb rehabilitation as they exist at the moment are systems for monitoring 
-position of all or part of the arm, often linked to a game or simulation in a virtual environment. [REF]
+Sensor systems for upper limb rehabilitation as they exist at the moment are systems for monitoring the 
+position of all or part of the arm, often linked to a game or simulation in a virtual environment \cite{AdvancesPush}.
 Robotic systems are similar but are able to actively move the patient's limb through some or all 
-of the degrees of freedom available to it. [REF]
+of the degrees of freedom available to it \cite{AdvancesPush}.
 
-These robots are helpful to rehabilitation because they can provide detailed feedback which 
+These robots aid rehabilitation because they can provide detailed feedback which 
 provides useful information to the physiotherapist and potentially a sense of achievement to 
-the patient, allowing them to monitor their own progress. Linking the system to a game or simulated 
-environment also helps to improve the patient's motivation. [REF]
+the patient. This allows them to monitor their own progress. Linking the system to a game or simulated 
+environment also helps to improve the patient's motivation \cite{AdvancesPush}.
 
 There is evidence that use of robots in rehabilitation leads to functional improvements in the patient 
 but there is some question as to whether this is much of an improvement over traditional methods 
-(i.e. not involving a robot). [REF]
+(i.e. not involving a robot) \cite{AdvancesPush}.
 
 \subsubsection{What they need to be able to do}
 At the most basic level the system needs to be able to accurately measure and report the 
 position of the limb (or section of limb) that it is to be used to aid in the rehabilitation of.
 
 The system also needs to be safe to use, for sensor systems this means not being sharp 
-or too heavy and for robotic systems this also means that the range of movement it can be 
-driven over needs to be the same as that of the human arm and there should be controls in 
-place to stop the system if it is likely to become dangerous. [REF]
+or too heavy. For robotic systems, however, this also means that the range of movement it can be 
+driven over needs to be the same as that of the human arm and that there should be controls in 
+place to stop the system if it is likely to become dangerous \cite{ARMin}.
 
 In order for the system to be more effective as a rehabilitation tool it should also be able to 
 support the limb in order to help reduce the likelihood of injury to the patient and it should 
-be comfortable to use for extended periods. [REF]
+be comfortable to use for extended periods \cite{AdvancesPush}.
 
 It has also been shown to be helpful for the system to incorporate some form of interactive 
 virtual environment, such as a game, in order to increase patient motivation and maintain 
-their cooperation. [REF]
+their cooperation \cite{AdvancesPush}.
 
 \section{Sensor Systems}
 \IEEEPARstart{T}{here} are a wide range of sensors available which can prove useful in 
-mapping the position and other qualities of a limb. [REF]  For this study will will consider sensors 
+mapping the position and other qualities of a limb. For this study sensors will be considered 
 as the individual components and sensor systems as a collection of such that can be used 
 to gain a more complete picture of the position and activity of a limb.
 
 \subsection{Position/Movement Sensors}
 \subsubsection{The sensors}
 The most common sensor type used for this purpose is the accelerometer. Accelerometers measure 
-the effect of acceleration on a mass in free-fall. A standard construction method for accelerometers 
-for use at the correct range and frequency of human motion is to have a test mass on a damped spring 
-and have the deflection of this mass move one plate of a capacitor thus changing its capacitance [REF: acc].
+the effect of acceleration on a mass in free-fall. A standard construction method for accelerometers, 
+for use at the correct range and frequency of human motion, is to have a test mass on a damped spring 
+and have the deflection of this mass move one plate of a capacitor thus changing its capacitance \cite{lowCostACs}.
 
 These devices are usually MEMs devices constructed in silicone but it is also possible to manufacture 
-larger devices (mm scale) using PCB techniques at potentially lower cost [REF: acc].
+larger devices (mm scale) using PCB techniques at potentially lower cost \cite{lowCostACs}.
 
 It is also interesting to note that an accelerometer at rest will show an acceleration of 1 g upwards as 
 the acceleration it measures is relative to the free-falling mass, and from the reference point of said 
 mass the casing of the accelerometer appears to be accelerating upwards at a rate of 1g.
 
-\subsubsection{How they're used}
-Most usually accelerometers are used to measure the acceleration of whatever they're attached to. 
+\subsubsection{How they are used}
+Most usually accelerometers are used to measure the acceleration of the object that they are attached to. 
 If the initial position and velocity are known then it should be possible to calculate the position and velocity 
-from the acceleration via integration although the errors accrued in this process may make using accelerometers 
-this way to estimate body position may not be feasible [REF: feasible].
+from the acceleration via integration, although the errors accrued in this process may make using accelerometers 
+this way to estimate body position not feasible \cite{ACfeasable}.
 
 One system that uses accelerometers to recognise the action being performed by the patient 
-is described in [REFto: upper limb motion recognition...]. This system uses two 3-axis accelerometers 
-one attached at the wrist and one above the bicep [REF]. Both these sensors transmit their 
-values via wireless modules to a computer where these values are analysed [REF]. This system 
+is described in \cite{ACSVM}. This system uses two 3-axis accelerometers 
+one attached at the wrist and one above the bicep \cite{ACSVM}. Both of these sensors transmit their 
+values via wireless modules to a computer where these values are analysed \cite{ACSVM}. This system 
 doesn't map limb position into 3D space but instead uses the output of the sensors whilst the 
 patient is performing an action from their rehabilitation routine and uses this to classify the 
-action [REF].
+action \cite{ACSVM}.
 
 \subsection{Angle Sensors} 
 \subsubsection{The sensors}
 The most usual method for measuring angle is with a potentiometer as their resistance changes as 
-they are rotated which is simplicity itself to measure. In order to accurately measure the angle of 
+they are rotated, which is simplicity itself to measure. In order to accurately measure the angle of 
 a joint by this method the potentiometer has to be properly aligned with the joint. Misalignment is 
 one of the main causes of error in systems that use such angle sensors and has to be carefully 
-compensated for [REF].
+compensated for \cite{AdvancesPush}.
 
-It is possible to use accelerometers as angle sensors relative to gravity, this could also be described 
+It is possible to use accelerometers as angle sensors relative to gravity; this could also be described 
 as a tilt sensor. Angle of a joint can be measured by putting a sensor either side, both aligned, and 
-calculating the difference [REF: anglesacc].
+calculating the difference \cite{ACangle}.
 
-A more novel sensor for measuring angle via measuring flexible displacement is described in [REF: flexible], 
+A more novel sensor for measuring angle via measuring flexible displacement is described in \cite{flexiSensor}, 
 it is a type of potentiometer based on nylon string coated in carbon to allow it to be flexible. It is also shown as 
-being able to measure the angle of the elbow joint of a human arm by measuring the flexing of the bicep [REF: flexible].
+being able to measure the angle of the elbow joint of a human arm by measuring the flexing of the bicep \cite{flexiSensor}.
 
-\subsubsection{How they're used}
+\subsubsection{How they are used}
 Angle sensors are most commonly used to measure the angle at which a joint in the arm is bent or 
-rotated, if you have such a sensor or each degree of freedom that the arm can move through then a 
+rotated, if you have such a sensor for each degree of freedom that the arm can move through then a 
 picture of the position of the arm can be constructed. This is usually the position mapping scheme 
-used in exoskeletal systems [REF].
+used in exoskeletal systems \cite{AdvancesPush}.
 
 \subsection{Force Sensors}
 \subsubsection{The sensors}
 Some examples of force sensors are the force sensitive resistor (FSR) developed by interlink 
-electronics [REF], quantum tunneling composites (QTCs) developed by Peratech [REF] and 
+electronics \cite{FSR,Interlink}, quantum tunneling composites (QTCs) developed by Peratech \cite{QTCs} and 
 piezoelectric force/vibration sensors.
 
 FSRs have contacts on either side of a slightly conductive layer, as force is applied more of 
 the contacts are shorted together and thus the resistance across them is reduced. FSRs 
-are not very accurate for measuring force, they are more suited to detecting its presence [REF].
+are not very accurate for measuring force, they are more suited to detecting its presence \cite{FSR}.
 
 QTCs work by quantum tunneling, they are made of metal particles suspended in an insulator 
-(rubber). When no force is applied the material is an insulator but when force is applied the 
+(rubber). When no force is applied the material is an insulator, but when force is applied the 
 material deforms and the metal particles are brought closer together allowing the material to 
-conduct via quantum tunneling of electrons [REF]. The resistance of a QTC varies 
-exponentially with applied force and can be used for force measurement [REF].
+conduct via quantum tunneling of electrons \cite{QTCs}. The resistance of a QTC varies 
+exponentially with applied force and can be used for force measurement \cite{QTCs}.
 
 Piezoelectric sensors work by the piezoelectric effect; which is that a deformation of the material 
 causes a voltage to appear across it. These types of sensors are only suitable for measuring 
@@ -689,91 +703,161 @@ dynamic force as they only give an output when the applied force is changing, th
 with the fact that they have a very fast response, is why they are often used for monitoring 
 vibration.
 
-\subsubsection{How they're used}
+\subsubsection{How they are used}
 Force sensors in upper limb rehabilitation robots and sensor systems are almost exclusively 
 used to measure the strength of the patient's grip. Force sensors are also used in lower 
 limb rehabilitation to the forces on the feet and help measure gait.
 
-One system that uses force sensors to measure grip strength is the PLEMO system [REF]. 
+One system that uses force sensors to measure grip strength is the PLEMO system \cite{PLEMO}. 
 This system adds grip strength and wrist angle sensors to an existing end-effector type 
-robotic rehabilitation device [REF]. The system was tested with a group of healthy subjects 
+robotic rehabilitation device \cite{PLEMO}. The system was tested with a group of healthy subjects 
 and a group of stroke victims so that any differences in the way they performed a task 
 (as described by the information from the sensors) could be identified, from the results 
-the stroke patients were clearly identifiable [REF].
+the stroke patients were clearly identifiable \cite{PLEMO}.
 
 
 \section{Robotic Systems}
-\IEEEPARstart{R}{obotic} systems are systems that are able to not only measure the position 
+\IEEEPARstart{R}{obotic} systems are systems which are able to not only measure the position 
 of the limb but also to actively move it. This allows such systems to physically guide a patient's 
 arm through the required movement. It also allows the system to provide varying amounts of 
-support to the patient as they perform an action. [REF]
+support to the patient as they perform an action \cite{AdvancesPush}.
 
 \subsection{End-effector}
 An end-effector system is a system that is anchored at one end and measures the position of 
-the other end relative to this. [REF] The end that is free to move is usually attached to the 
-patient's wrist and thus i's position in 3d space can be tracked and controlled (via actuation) 
-which allows the system to monitor the performance of an action and show variations. [REF]
+the other end relative to this \cite{AdvancesPush}. The end that is free to move is usually attached to the 
+patient's wrist and thus its position in 3D space can be tracked and controlled (via actuation) 
+which allows the system to monitor the performance of an action and show variations \cite{AdvancesPush}.
 
-The InMotion2 robotic rehabilitation system is an example of and end-effector system [REF]. 
+\begin{figure}[!h]
+\centering
+\includegraphics[width=2.5in]{InMotion2.png}
+% where an .eps filename suffix will be assumed under latex, 
+% and a .pdf suffix will be assumed for pdflatex; or what has been declared
+% via \DeclareGraphicsExtensions.
+\caption{InMotion2, showing the virtual environment the patient interacts with \cite{QuantativeRobot}}
+\label{InMotion2_fig}
+\end{figure}
+
+The InMotion2 robotic rehabilitation system is an example of and end-effector system \cite{QuantativeRobot}. 
 This system attaches to the patient at the forearm and wrist and allows for the motion of these 
 points to be monitored in a 2D plane while the patient completes tasks shown to him on 
-a screen [REF]. Data collected from this system at the beginning and end of a course of 
+a screen \cite{QuantativeRobot}. Data collected from this system at the beginning and end of a course of 
 rehabilitation using the system are able to show that the patient has improved at the tasks 
-set by the system [REF].
+set by the system \cite{QuantativeRobot}.
 
-Another end-effector system is described in [REF:VRHandFinger], this system is designed for 
+Another end-effector system is described in \cite{VRHandFinger}, this system is designed for 
 hand and finger rehabilitation. This system is interacted with via a finger and allows you to navigate 
-a point about a 3d environment on a computer, in which the patient is to complete tasks [REF:VRHandFinger].
+a point about a 3d environment on a computer, in which the patient is to complete tasks \cite{VRHandFinger}.
 This system is also able to show patient improvement at the tasks after rehabilitation using the 
-system [REF:VRHandFinger].
+system \cite{VRHandFinger}.
 
 End-effector systems with a single attachment point give no information on the position and 
 alignment of the rest of the limb. Some systems exist with two contact points (e.g. the wrist 
-and the upper arm) in order to get more information but this is still limited [REF].
+and the upper arm) in order to get more information but this is still limited \cite{AdvancesPush}.
 
 \subsection{Exoskeleton}
-Exoskeletal systems are systems that are built around shape and degrees of freedom of the limb. [REF] 
-They allow much more information to be gathered about the limb as they allow for more sensors to be 
-placed and more degrees of freedom to be monitored and controlled. [REF] It is, however, harder to 
+Exoskeletal systems are systems that are built around shape and degrees of freedom of the limb \cite{AdvancesPush}. 
+They allow a wider set of information to be gathered about the limb as they allow for more sensors to be 
+placed and more degrees of freedom to be monitored and controlled \cite{AdvancesPush}. It is, however, harder to 
 provide support to the limb through a pure exoskeletal system, for this reason the systems are often 
-hybrids; with one end of the exoskeleton attached to and end-effector system. [REF]
+hybrids; with one end of the exoskeleton attached to and end-effector system \cite{AdvancesPush}.
 
 One such hybrid system is the ARMin rehabilitation robot which has an end-effector system for the 
-shoulder attached to an exoskeleton for the elbow and the forearm. [REF] The system has 4 active 
-degrees of freedom and 2 passive with which to measure and guide the position and movement of 
-the patient's arm. [REF] The ARMin system is also highly adjustable at many points in its structure 
-so that it can be changed to fit patients of different sizes. [REF]
+shoulder attached to an exoskeleton for the elbow and the forearm \cite{ADLVE, ARMin}. The system has four active 
+degrees of freedom and two passive with which to measure and guide the position and movement of 
+the patient's arm \cite{ARMin}. The ARMin system is also highly adjustable at many points in its structure 
+so that it can be changed to fit patients of different sizes \cite{ARMin}.
 
-The ARMin system is also and example of a system that uses interactive games in order to increase 
-patient's motivation and compliance. [REF] The ARMin system was piloted on healthy subjects and 
+The ARMin system is also an example of a system that uses interactive games in order to increase 
+patient's motivation and compliance \cite{ADLVE,ARMin}. The ARMin system was piloted on healthy subjects and 
 the results of a questionnaire following this provide evidence for incorporating games increasing 
-motivation [REF].
+motivation \cite{ARMin}.
 
-Another exoskeletal system for the arm is the CADEN-7 [REF]. The CADEN-7 system was built as a 
+Another exoskeletal system for the arm is the CADEN-7 \cite{CADEN}. The CADEN-7 system was built as a 
 general exoskeleton not specifically aimed at rehabilitation but suitable for use as such or as either an 
-assistive device, a haptic interface or a master device for teleoperation of another robot system [REF]. 
-CADEN-7 is a 7 degree of freedom system; 3 at the shoulder, 1 at the elbow and 3 at the wrist to 
-match the human arm [REF].
+assistive device, a haptic interface or a master device for teleoperation of another robot system \cite{CADEN}. 
+CADEN-7 is a 7 degrees of freedom system with 3 at the shoulder, 1 at the elbow and 3 at the wrist; this 
+matches the degrees of freedom of the human arm \cite{CADEN}.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=2.5in]{CADEN7.png}
+% where an .eps filename suffix will be assumed under latex, 
+% and a .pdf suffix will be assumed for pdflatex; or what has been declared
+% via \DeclareGraphicsExtensions.
+\caption{CADEN-7 exoskeleton system \cite{CADEN}}
+\label{CADEN7_fig}
+\end{figure}
 
 The name CADEN-7 comes from ``cable-actuated dexterous exoskeleton for neurorehabilitation'', 
-cable actuation means the torque is transfered from motors to the part of the system to be driven 
-via cables [REF]. The advantage of this method is that they can transmit the torque over long 
-distances relatively simply and without much backlash [REF].
+cable actuation means the torque is transferred from motors to the part of the system to be driven 
+via cables \cite{CADEN}. The advantage of this method is that they can transmit the torque over long 
+distances relatively simply and without much backlash \cite{CADEN}.
 
-Exoskeletons are possible for just the hand as well as for the entire arm. An example of such a 
-system is the HEXOSYS-II [REF]. This system has a full set of exoskeletal fingers and thumb and 
+Exoskeletons that cover only the hand are available, as well as those for the entire arm. An example of such a 
+system is the HEXOSYS-II \cite{HandExo}. This system has a full set of exoskeletal fingers and thumb and 
 each of these can be driven to grasp and unfurl, the system also allows for the fingers to be 
-spread out but this cannot be driven [REF].
+spread out but this cannot be driven \cite{HandExo}.
 
 The HEXOSYS-II has magnetic sensors by the motors in order to sense the finger position (via 
 the motor position) and it also has strain gauges on the linkages between the motor and the fingers 
-in order to sense the forces on the fingers [REF].
+in order to sense the forces on the fingers \cite{HandExo}.
 
 \section{Vision Based Systems}
-\IEEEPARstart{C}{ameras} and computing power is getting cheaper all the time and are therefore 
+\IEEEPARstart{C}{ameras} and computing power are getting cheaper all the time and are therefore 
 more available. This increase in available computing power allows complex image processing to be performed 
 which can be used to track a body in 2d and 3D space.
 
+Motion capture systems such as those used for video games and film are impractical for use in 
+rehabilitation as they involve a large number of high quality cameras, a clean background and 
+the subject has to have markers placed on their body.
+
+\subsection{2D Tracking Systems}
+Systems based around a single video camera can only work with 2D images but can still often track 
+bodies in the image and recognise gestures.
+
+One system that tracks the motion of a hand for stroke rehabilitation purposes is described in \cite{SeriousGames}. 
+This system uses a video camera and a thermal camera in order to facilitate the segmentation of the hand from the 
+image against uncontrolled backgrounds \cite{SeriousGames}. The system is capable of recognising hand position 
+in a 2D plane and also of distinguishing certain gestures of the hand \cite{SeriousGames}. The recognition 
+of hand position and gesture is then used as the control for a pair of games designed to be appropriate to 
+stroke rehabilitation \cite{SeriousGames}.
+
+\subsection{Stereo 3D Systems}
+With two cameras it is possible to capture 3D information about a scene through proper processing of the 
+images. This is done by first properly aligning and calibrating the cameras and then looking at the differences 
+between the two images, objects closer to the cameras will cause a greater disparity.
+
+A system for calculating body position from the feeds of two cameras is described in \cite{StereoCamera}. This 
+system takes the 'disparity map' (the differences between the two images) and uses this to first find 
+the centre of gravity of this map \cite{StereoCamera}. This image is then filtered to remove both noise 
+and the background \cite{StereoCamera}. Once this is completed the system makes a decision as to whether 
+the subject is self-occluded, if not then pose is calculated directly, if so then pose is calculated 
+based on comparing the image to standard human body shape \cite{StereoCamera}.
+
+\subsection{Structured Light Systems}
+The Microsoft Kinect Sensor is a relatively cheap and readily available system that uses a structured 
+light sensor in order to generate a depth map of a scene \cite{Kinect}. This structured light sensor 
+works by projecting a grid of IR dots onto the scene and an image of these is then captured by the 
+on board IR sensor, depths are then generated based on the deformation of this grid \cite{Kinect}.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=2.5in]{kinect.png}
+% where an .eps filename suffix will be assumed under latex, 
+% and a .pdf suffix will be assumed for pdflatex; or what has been declared
+% via \DeclareGraphicsExtensions.
+\caption{Kinect with sensors exposed \cite{Kinect}}
+\label{kinect_fig}
+\end{figure}
+
+The Kinect Sensor comes with software for the extraction of the position of people from a scene and 
+the fitting of a skeleton to them as well as gesture recognition built on top of this \cite{Kinect,kinect1}. 
+This serves as an excellent starting point for use of the Kinect as a rehabilitation tool and it was 
+investigated as a low cost alternative to a conventional motion capture system in \cite{kinect1} and was 
+shown to be able to recognise movements with a similar level of accuracy. Another system exists that 
+improves upon the gesture recognition of the Kinect allowing pose and gesture to be recognised 
+simultaneously \cite{kinectGesture}.
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
@@ -858,13 +942,74 @@ which can be used to track a body in 2d and 3D space.
 % stfloats package.
 
 \section{Discussion}
-Discussion goes here
+\IEEEPARstart{T}{here} are a wide range of approaches to the problem of stroke rehabilitation systems, 
+each has its benefits and drawbacks and it may be the case that more than one 
+could be used in a patient's care.
+
+Purely passive sensor based systems provide information on the limb they're 
+monitoring but are unable to support or assist it. They are much lighter 
+and less complex than actuated systems and this might give them an advantage 
+in certain areas of the patient's care; for instance it might be that the 
+system is compact enough that  a physiotherapist could take with them for use in house calls.
+
+Accelerometers are versatile sensors that can be used for inferred position and angle 
+measurements depending on their arrangement. Passive sensing of angle is best done by 
+potentiometer but for measuring the position of a driven joint a magnetometer can 
+be used next to the motor. FSRs and QTCs are the most useful way to sense force for 
+this sort of system and these are used usually in hand/ grip rehabilitation systems.
+
+End-effector type systems are useful and fairly simple but limited, whereas 
+exoskeletons are more complex systems but give more information. The main 
+challenge of an exoskeleton system is to match the degrees of freedom and 
+range of movement of the human arm and, in the interests of safety, not be 
+able to exceed these.
+
+End-effector and exoskeleton systems for the whole arm tend to be very large, 
+usually wall mounted, systems. This allows them to properly actuate and drive the 
+complete arm throughout its range of motion. There are also end-effector and 
+exoskeleton systems for the hand and fingers which are also important to 
+include in the rehabilitation scheme.
+
+Visual systems are potentially the cheapest candidate for rehabilitation systems. 
+Single camera based systems are limited in the movements they can recognise as 
+they can't extract 3D information whereas multiple camera systems can, meaning 
+that they can potentially recognise more complex movements.
+
+The Kinect sensor enables low-cost motion tracking and provides an environment 
+for further experimentation providing a huge amount of potential for 
+rehabilitation systems
 
 \section{Conclusion}
-The conclusion goes here.
+\IEEEPARstart{A}{stroke} can affect a person in a multitude of ways including fully or 
+partially paralysing them down one or both sides. The damage caused can however be 
+mitigated by rehabilitation due to the brain's plasticity.
 
+Robotic sensor systems are shown to have potential as useful tools to the 
+physiotherapist and for engaging the patient with their rehabilitation.
 
+There are two main areas where robotic/sensor rehabilitation systems are appropriate; 
+in the hospital for the acute and rehabilitation stages of care, these can be big bulky 
+systems, and in the home for the rehabilitation and community stages of care, these 
+have to be smaller and much cheaper systems.
 
+The big end-effector and full arm exoskeleton systems are more suited to the hospital 
+where they can be used as advanced tools for the physiotherapist, providing detailed 
+feedback on the patient's movements.
+
+Systems based around a few sensors placed on the arm or on visual sensors are more 
+suitable for home use, particularly when used as a haptic interface and linked to 
+a game designed to encourage the patient to do appropriate actions for their 
+rehabilitation. 
+
+Linking the system to a game is a popular way to increase the patient's motivation and 
+thereby increase the effectiveness of the rehabilitation program due to increased 
+repetition. Almost all of the systems developed with rehabilitation in mind linked 
+their system to some form of game or simulation of activities of daily life.
+
+There were no systems found that integrated arm and hand (including fingers) exoskeletons. 
+This would provide an additional level of data and also consolidate the information collected 
+on the complete limb allowing for a much fuller picture to be constructed of the movement of 
+and forces on the limb.
 
 
 % if have a single appendix:
@@ -938,15 +1083,15 @@ The conclusion goes here.
 
 \bibitem{Physio} physiotherapy-treatment.com (2012, April 5). \emph{stroke physical therapy} [Online]. Available: \url{http://www.physiotherapy-treatment.com/stroke-physical-therapy.html}
 
-\bibitem{fuglemeyer} F.-meyer Ar, L. Jaasko, I. Leyman, S. Olsson, and S. S. The, “FUGL-MEYER ASSESSMENT UPPER EXTREMITY ( FMA-UE ) Assessment of sensorimotor function ID : Date : Examiner :,” no. max 2, pp. 1-3, 2010.
+\bibitem{fuglmeyer} F.-meyer Ar, L. Jaasko, I. Leyman, S. Olsson, and S. S. The, “FUGL-MEYER ASSESSMENT UPPER EXTREMITY ( FMA-UE ) Assessment of sensorimotor function”, 2, pp. 1-3, 2010.
 
-\bibitem{VRHandFingerr} O. a. Daud, R. Oboe, M. Agostini, and A. Turolla, “Performance evaluation of a VR-based hand and finger rehabilitation program,” 2011 IEEE International Symposium on Industrial Electronics, pp. 934-939, Jun. 2011.
+\bibitem{VRHandFinger} O. a. Daud, R. Oboe, M. Agostini, and A. Turolla, “Performance evaluation of a VR-based hand and finger rehabilitation program,” 2011 IEEE International Symposium on Industrial Electronics, pp. 934-939, Jun. 2011.
 
-\bibitem{flexiSensor} S. Dohta, T. Akagi, and H. Kuno, “Development of string-type flexible displacement sensor to measure the movement of robot and human body,” International journal of, pp. 2-4, 2010.
+\bibitem{flexiSensor} S. Dohta, T. Akagi, and H. Kuno, “Development of string-type flexible displacement sensor to measure the movement of robot and human body,” International journal of Mechatronics and Machine Vision in Practice, pp. 2-4, 2010.
 
-\bibitem{ACangle} F. Ghassemi, S. Tafazoli, and P. Lawrence, “Design and Calibration of an Integration-Free Accelerometer-Based Joint-Angle Sensor,” Instrumentation and, vol. 57, no. 1, pp. 150-159, 2008.
+\bibitem{ACangle} F. Ghassemi, S. Tafazoli, and P. Lawrence, “Design and Calibration of an Integration-Free Accelerometer-Based Joint-Angle Sensor,” IEEE Transactions on Instrumentation and Measurement, vol. 57, no. 1, pp. 150-159, 2008.
 
-\bibitem{ACfeasable} D. Giansanti and V. Macellari, “Is it feasible to reconstruct body segment 3-D position and orientation using accelerometric data?,” IEEE Transactions on, vol. 50, no. 4, pp. 476-483, 2003.
+\bibitem{ACfeasable} D. Giansanti and V. Macellari, “Is it feasible to reconstruct body segment 3-D position and orientation using accelerometric data?,” IEEE Transactions on Biomedical Engineering, vol. 50, no. 4, pp. 476-483, 2003.
 
 \bibitem{ADLVE} M. Guidali, A. Duschau-Wicke, S. Broggi, V. Klamroth-Marganska, T. Nef, and R. Riener, “A robotic system to train activities of daily living in a virtual environment.,” Medical \& biological engineering \& computing, vol. 49, no. 10, pp. 1213-23, Oct. 2011.
 
@@ -954,7 +1099,7 @@ The conclusion goes here.
 
 \bibitem{FSR} A. Hollinger, “Evaluation of commercial force-sensing resistors,” Unpublished report, pp. 1-4, 2006.
 
-\bibitem{QTC} Peratech. (2012, May 7). \emph{QTC Material} [Online]. Available: \url{http://www.peratech.com/qtcmaterial.php}
+\bibitem{QTCs} Peratech. (2012, May 7). \emph{QTC Material} [Online]. Available: \url{http://www.peratech.com/qtcmaterial.php}
 
 \bibitem{Interlink} Interlink Electronics Inc. (2011). \emph{Force Sensorsl} [Online]. Available: \url{http://www.interlinkelectronics.com/catalog/Force-Sensors}
 
@@ -973,6 +1118,14 @@ The conclusion goes here.
 \bibitem{CADEN} J. Perry and J. Rosen, “Upper-limb powered exoskeleton design,” Mechatronics, IEEE/ASME, vol. 12, no. 4, pp. 408-417, 2007.
 
 \bibitem{QuantativeRobot} L. Zollo, L. Rossini, M. Bravi, G. Magrone, S. Sterzi, and E. Guglielmelli, “Quantitative evaluation of upper-limb motor control in robot-aided rehabilitation.,” Medical \& biological engineering \& computing, vol. 49, no. 10, pp. 1131-44, Oct. 2011.
+
+\bibitem{SeriousGames} L. Evett et al., “Dual camera motion capture for serious games in stroke rehabilitation,” 2011 IEEE 1st International Conference on Serious Games and Applications for Health (SeGAH), pp. 1-4, Nov. 2011.
+
+\bibitem{kinect1} C. Schonauer, T. Pintaric, and H. Kaufmann, “Chronic pain rehabilitation with a serious game using multimodal input,” International Conference on Virtual Rehabilitation, 2011.
+
+\bibitem{Kinect} W. Zeng and Z. Zhang, “Multimedia at Work Microsoft Kinect Sensor and Its Effect,” pp. 4-10, 2012.
+
+\bibitem{kinectGesture} A. Bigdelou, T. Benz, L. Schwarz, and N. Navab, “Simultaneous categorical and spatio-temporal 3D gestures using Kinect,” 2012 IEEE Symposium on 3D User Interfaces (3DUI), pp. 53-60, Mar. 2012.
 
 \end{thebibliography}
 
@@ -1014,5 +1167,6 @@ The conclusion goes here.
 
 % that's all folks
 \end{document}
+
 
 

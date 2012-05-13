@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.7)  7 MAY 2012 22:34
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.8)  8 MAY 2012 10:05
 entering extended mode
 **H:/mydocuments/IRRgit/IRRdraft.tex
 (H:/mydocuments/IRRgit/IRRdraft.tex
@@ -102,88 +102,118 @@ LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 373.
 Package: cite 2010/09/10  v 5.3
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/01/28 v0.05d Graphics/color for pdfTeX
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 (H:\mydocuments\IRRgit\IRRdraft.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 392.
-LaTeX Font Info:    ... okay on input line 392.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 392.
-LaTeX Font Info:    ... okay on input line 392.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 392.
-LaTeX Font Info:    ... okay on input line 392.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 392.
-LaTeX Font Info:    ... okay on input line 392.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 392.
-LaTeX Font Info:    ... okay on input line 392.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 392.
-LaTeX Font Info:    ... okay on input line 392.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 391.
+LaTeX Font Info:    ... okay on input line 391.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 391.
+LaTeX Font Info:    ... okay on input line 391.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 391.
+LaTeX Font Info:    ... okay on input line 391.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 391.
+LaTeX Font Info:    ... okay on input line 391.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 391.
+LaTeX Font Info:    ... okay on input line 391.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 391.
+LaTeX Font Info:    ... okay on input line 391.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count92
+\scratchdimen=\dimen119
+\scratchbox=\box27
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen120
+\MPnumerator=\count96
+\everyMPtoPDFconversion=\toks17
+) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+] [2]
+<InMotion2.png, id=12, 266.49562pt x 209.28188pt>
+File: InMotion2.png Graphic file (type png)
+ <use InMotion2.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<CADEN7.png, id=13, 470.50781pt x 421.575pt>
+File: CADEN7.png Graphic file (type png)
+ <use CADEN7.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <H:/mydocuments/IRRgit/InMotion2.png (PNG copy)>]
+<kinect.png, id=17, 651.93562pt x 331.2375pt>
+File: kinect.png Graphic file (type png)
+ <use kinect.png> [4 <H:/mydocuments/IRRgit/CADEN7.png (PNG copy)> <H:/mydocume
+nts/IRRgit/kinect.png (PNG copy)>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 411.
+(Font)              <8> on input line 1080.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 411.
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-]
-Underfull \hbox (badness 2818) in paragraph at lines 465--465
-[][][]\OT1/ptm/m/n/8 J. Charlesworth is with the School of Elec-tron-ics and Co
-m-puter
- []
-
-[2
-
-] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 724--729
-[]\OT1/ptm/m/n/10 Another end-effector sys-tem is de-scribed in
- []
-
-
-Underfull \hbox (badness 1776) in paragraph at lines 724--729
-\OT1/ptm/m/n/10 [REF:VRHandFinger], this sys-tem is de-signed for hand
- []
-
-
-Underfull \hbox (badness 1533) in paragraph at lines 724--729
-\OT1/ptm/m/n/10 to com-plete tasks [REF:VRHandFinger]. This sys-tem is
- []
-
+(Font)              <6> on input line 1080.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 935.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 935.
+(Font)              <5> on input line 1080.
 
-Underfull \hbox (badness 4072) in paragraph at lines 935--936
+Underfull \hbox (badness 4072) in paragraph at lines 1080--1081
 \OT1/ptm/m/n/8 [On-line]. Avail-able: $http : / / www . stroke . org / site / P
 ageServer ? pagename =$
  []
 
 
-Underfull \hbox (badness 4805) in paragraph at lines 937--938
+Underfull \hbox (badness 4805) in paragraph at lines 1082--1083
 []\OT1/ptm/m/n/8 J. Caswell. (2012, April 11). \OT1/ptm/m/it/8 A Tour of the Br
 ain \OT1/ptm/m/n/8 [On-line].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 937--938
+Underfull \hbox (badness 10000) in paragraph at lines 1082--1083
 $\OT1/ptm/m/n/8 EectsofStroke / ATouroftheBrain / A-[]Tour-[]of-[]the-[]Brain[
 ]UCM[]310943[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 939--940
+Underfull \hbox (badness 10000) in paragraph at lines 1084--1085
 []\OT1/ptm/m/n/8 physiotherapy-treatment.com (2012, April 5). \OT1/ptm/m/it/8 s
 troke phys-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 939--940
+Underfull \hbox (badness 10000) in paragraph at lines 1084--1085
 \OT1/ptm/m/it/8 ther-apy \OT1/ptm/m/n/8 [On-line]. Avail-able: $http : / / www 
 . physiotherapy-[]treatment .$
  []
 
-[4]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
@@ -280,25 +310,50 @@ Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
- [5
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+[5]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+ [6
 
 ] (H:\mydocuments\IRRgit\IRRdraft.aux) ) 
 Here is how much of TeX's memory you used:
- 1101 strings out of 494053
- 18322 string characters out of 3146165
- 72897 words of memory out of 3000000
- 4444 multiletter control sequences out of 15000+200000
+ 1860 strings out of 494053
+ 28386 string characters out of 3146177
+ 89422 words of memory out of 3000000
+ 5172 multiletter control sequences out of 15000+200000
  40815 words of font info for 75 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 26i,5n,19p,327b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 718 hyphenation exceptions out of 8191
+ 26i,6n,25p,327b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/font
 s/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
 times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi
 8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on IRRdraft.pdf (5 pages, 74981 bytes).
+Output written on IRRdraft.pdf (6 pages, 902789 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
